@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 81783143210012160}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Finish
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,14 +53,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1819027735145914}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 197, y: 2.69, z: 140.54}
+  m_LocalRotation: {x: -0, y: 0.17067893, z: -0, w: 0.9853267}
+  m_LocalPosition: {x: 185.08435, y: 11.99, z: 230.25623}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4514943304313926}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 19.655, z: 0}
 --- !u!4 &4514943304313926
 Transform:
   m_ObjectHideFlags: 1
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1998053370566158}
   m_LocalRotation: {x: -0, y: 0.81776124, z: -0, w: -0.5755576}
-  m_LocalPosition: {x: 12.41, y: -0.8, z: 2.29}
+  m_LocalPosition: {x: 12.41, y: -0.491, z: 2.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4477467058122022}

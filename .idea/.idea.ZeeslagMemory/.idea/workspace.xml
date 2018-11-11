@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ca90611-212b-419d-9c93-20cbf6902794" name="Default" comment="" />
+    <list default="true" id="9ca90611-212b-419d-9c93-20cbf6902794" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ZeeslagMemory/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZeeslagMemory/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ZeeslagMemory/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZeeslagMemory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ZeeslagMemory/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Checkpoints.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Checkpoints.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Finish.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Finish.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gituser.yaml" afterPath="$PROJECT_DIR$/Library/gfu/cache/gituser.yaml" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/0e/0e7ee4df08df88c4880f43398f9ad2c2" afterPath="$PROJECT_DIR$/Library/metadata/0e/0e7ee4df08df88c4880f43398f9ad2c2" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" afterPath="$PROJECT_DIR$/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/8b/8b6e4202cdb20b94eba43e073e99e808.info" afterPath="$PROJECT_DIR$/Library/metadata/8b/8b6e4202cdb20b94eba43e073e99e808.info" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HitCheckpoints.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HitCheckpoints.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitCheckpoints.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -51,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RaceTimer.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RaceTimer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaceTimer.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -105,14 +121,17 @@
       <find>.text</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaceTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/countdownTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaceTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitCheckpoints.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -144,6 +163,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -215,11 +235,12 @@
       <workItem from="1540808134859" duration="1932000" />
       <workItem from="1541083592354" duration="3899000" />
       <workItem from="1541938847056" duration="2731000" />
+      <workItem from="1541955438680" duration="245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37166000" />
+    <option name="totallyTimeSpent" value="37411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,14 +258,13 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -253,6 +273,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -292,6 +313,83 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1541938933820" expanded="false" signature="6:113" ph="..." />
+            <marker date="1541938933820" expanded="true" signature="161:309" ph="{...}" />
+            <marker date="1541938933820" expanded="true" signature="204:251" ph="{...}" />
+            <marker date="1541938933820" expanded="true" signature="278:307" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitCheckpoints.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <marker date="1541942466481" expanded="false" signature="6:229" ph="..." />
+            <marker date="1541942466481" expanded="true" signature="274:2874" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="705:1253" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="906:1223" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="1339:2528" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="1545:1896" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="1952:2024" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="2217:2247" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="2254:2346" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="2397:2448" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="2455:2525" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="2571:2872" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="2900:3177" ph="{...}" />
+            <marker date="1541942466481" expanded="true" signature="3090:3175" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding>
+            <marker date="1541942323630" expanded="false" signature="6:100" ph="..." />
+            <marker date="1541942323630" expanded="true" signature="144:1085" ph="{...}" />
+            <marker date="1541942323630" expanded="true" signature="241:1083" ph="{...}" />
+            <marker date="1541942323630" expanded="true" signature="387:496" ph="{...}" />
+            <marker date="1541942323630" expanded="true" signature="533:1077" ph="{...}" />
+            <marker date="1541942323630" expanded="true" signature="652:1067" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/countdownTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <marker date="1541942444627" expanded="false" signature="6:172" ph="..." />
+            <marker date="1541942444627" expanded="true" signature="218:531" ph="{...}" />
+            <marker date="1541942444627" expanded="true" signature="296:529" ph="{...}" />
+            <marker date="1541942444627" expanded="true" signature="408:526" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaceTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="115" lean-forward="false" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
+          <folding>
+            <marker date="1541942070655" expanded="false" signature="6:140" ph="..." />
+            <marker date="1541942070655" expanded="true" signature="180:617" ph="{...}" />
+            <marker date="1541942070655" expanded="true" signature="275:331" ph="{...}" />
+            <marker date="1541942070655" expanded="true" signature="392:615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
@@ -307,37 +405,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="154" column="13" lean-forward="false" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
-          <folding>
-            <marker date="1503684548000" expanded="false" signature="6:67" ph="..." />
-            <marker date="1503684548000" expanded="true" signature="111:8904" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="202:8902" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="217:1290" ph="/* This script reads some of the car's current properties and plays sounds accordingly. ... */" />
-            <marker date="1503684548000" expanded="true" signature="1363:1471" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3536:4289" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3952:4183" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4324:4563" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4455:4516" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4638:7947" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4955:5012" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5186:5244" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5277:7937" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5707:6018" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="6039:7923" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="6078:6204" ph="/* for 4 channel engine sound, it's a little more complex: ... */" />
-            <marker date="1503684548000" expanded="true" signature="8080:8654" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="8825:8896" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/countdownTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/countdownTimer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -353,30 +424,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="59" column="66" lean-forward="false" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -390,30 +440,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="87" column="9" lean-forward="false" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -427,30 +456,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="98" column="64" lean-forward="true" selection-start-line="98" selection-start-column="64" selection-end-line="98" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -464,30 +472,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="98" column="64" lean-forward="true" selection-start-line="98" selection-start-column="64" selection-end-line="98" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -501,29 +488,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MovementScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MovementScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -537,21 +504,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MovementScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MovementScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneOnClick.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -566,76 +520,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/EasyRoads3D/_manualv3.html" />
-    <entry file="file://$PROJECT_DIR$/Assets/ExitButtonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/MovementScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/countdownTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="59" column="66" lean-forward="false" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ExitButtonController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MovementScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaceTimer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FlareController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/countdownTimer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/HitCheckpoints.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="154" column="13" lean-forward="false" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
-          <folding>
-            <marker date="1503684548000" expanded="false" signature="6:67" ph="..." />
-            <marker date="1503684548000" expanded="true" signature="111:8904" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="202:8902" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="217:1290" ph="/* This script reads some of the car's current properties and plays sounds accordingly. ... */" />
-            <marker date="1503684548000" expanded="true" signature="1363:1471" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3536:4289" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3952:4183" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4324:4563" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4455:4516" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4638:7947" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4955:5012" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5186:5244" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5277:7937" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5707:6018" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="6039:7923" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="6078:6204" ph="/* for 4 channel engine sound, it's a little more complex: ... */" />
-            <marker date="1503684548000" expanded="true" signature="8080:8654" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="8825:8896" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,26 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="104" column="17" lean-forward="false" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-          <folding>
-            <marker date="1503684537000" expanded="false" signature="6:68" ph="..." />
-            <marker date="1503684537000" expanded="true" signature="125:2951" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="226:2949" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="312:383" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="441:723" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="487:637" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="1018:1300" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="1095:1290" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="1332:2854" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="1423:2002" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="1477:1988" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="2130:2844" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="2889:2943" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="3012:4467" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="3157:4458" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="3260:4452" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="3763:3917" ph="{...}" />
-            <marker date="1503684537000" expanded="true" signature="4009:4314" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,58 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1503684548000" expanded="false" signature="6:32" ph="..." />
-            <marker date="1503684548000" expanded="true" signature="76:13524" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="109:193" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="222:259" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="307:13522" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="2508:3042" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="2617:2734" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3080:3528" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3337:3394" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3461:3518" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3672:3742" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="3895:3966" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4011:4532" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4079:4312" ph="/* gear factor is a normalised representation of the current speed within the current gear's range of speeds. ... */" />
-            <marker date="1503684548000" expanded="true" signature="4571:5073" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="4594:4732" ph="/* calculate engine revs (for display / sound) ... */" />
-            <marker date="1503684548000" expanded="true" signature="5163:6664" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5213:5506" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="5791:5892" ph="/* Set the steer on the front wheels. ... */" />
-            <marker date="1503684548000" expanded="true" signature="6175:6259" ph="/* Set the handbrake. ... */" />
-            <marker date="1503684548000" expanded="true" signature="6291:6502" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="6698:7337" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="6799:7327" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="7401:8824" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="7480:8312" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="7659:7775" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="8353:8814" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="8469:8584" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="8624:8800" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="8861:9719" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="8911:9188" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="9374:9656" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="9819:10041" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="10052:10304" ph="/* checks if the wheels are spinning and is so does three things ... */" />
-            <marker date="1503684548000" expanded="true" signature="10345:11473" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="10434:11463" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="10734:11156" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="10829:10961" ph="/* avoiding all four tires screeching at the same time ... */" />
-            <marker date="1503684548000" expanded="true" signature="11009:11108" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="11268:11355" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="11617:12736" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="11694:12726" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="11853:12030" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="12791:13236" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="12869:12956" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="12973:13226" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="13111:13212" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="13281:13516" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="13331:13480" ph="{...}" />
-            <marker date="1503684548000" expanded="true" signature="13397:13466" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,6 +588,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaceTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="115" lean-forward="false" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
+          <folding>
+            <marker date="1541942070655" expanded="false" signature="6:140" ph="..." />
+            <marker date="1541942070655" expanded="true" signature="180:617" ph="{...}" />
+            <marker date="1541942070655" expanded="true" signature="275:331" ph="{...}" />
+            <marker date="1541942070655" expanded="true" signature="392:615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HitCheckpoints.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -785,19 +620,6 @@
             <marker date="1541942466481" expanded="true" signature="2571:2872" ph="{...}" />
             <marker date="1541942466481" expanded="true" signature="2900:3177" ph="{...}" />
             <marker date="1541942466481" expanded="true" signature="3090:3175" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaceTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="115" lean-forward="false" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
-          <folding>
-            <marker date="1541942070655" expanded="false" signature="6:140" ph="..." />
-            <marker date="1541942070655" expanded="true" signature="180:617" ph="{...}" />
-            <marker date="1541942070655" expanded="true" signature="275:331" ph="{...}" />
-            <marker date="1541942070655" expanded="true" signature="392:615" ph="{...}" />
           </folding>
         </state>
       </provider>
