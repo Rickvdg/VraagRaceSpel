@@ -896,7 +896,6 @@ GameObject:
   - component: {fileID: 685612615}
   - component: {fileID: 685612614}
   - component: {fileID: 685612613}
-  - component: {fileID: 685612616}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -959,17 +958,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &685612616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 685612612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &733385500
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,6 +2559,11 @@ Prefab:
       propertyPath: HitCheckpoints
       value: 
       objectReference: {fileID: 11527686}
+    - target: {fileID: 114134661844183806, guid: 2daf86fa12a6f1948ad3f3652a676686,
+        type: 2}
+      propertyPath: m_Text
+      value: 00:00.0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2daf86fa12a6f1948ad3f3652a676686, type: 2}
   m_IsPrefabParent: 0

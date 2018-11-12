@@ -59,6 +59,7 @@ public class HitCheckpoints : MonoBehaviour
 			RoundTime.Stop();
 			collidedObject.transform.GetChild(0).gameObject.SetActive(true);
 			Camera.main.gameObject.SetActive(false);
+			collidedObject.GetComponent<BoxCollider>().enabled = false;
 			finish.transform.GetChild(0).gameObject.SetActive(true);
 			QuestionText.transform.parent.gameObject.SetActive(false);
 			FinishedText.gameObject.SetActive(true);
