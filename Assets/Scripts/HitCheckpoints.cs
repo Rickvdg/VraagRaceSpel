@@ -10,7 +10,6 @@ using Random = UnityEngine.Random;
 
 public class HitCheckpoints : MonoBehaviour
 {
-	public List<int> checkpointsHit;
 	public int WrongCheckpoints;
 	public int GoodCheckpoints;
 	public Text QuestionText;
@@ -24,13 +23,12 @@ public class HitCheckpoints : MonoBehaviour
 
 	public int AmountOfQuestions = 3;
 	private int RightAnswerIndex;
-	
+	private bool finished = false;
 	private QuestionObj[] Questions;
 
 	private void Start()
 	{
 		RoundTime = new Stopwatch();
-		checkpointsHit = new List<int>();
 		
 		FinishedText.gameObject.SetActive(false);
 		finish.transform.GetChild(0).gameObject.SetActive(false);
@@ -54,11 +52,13 @@ public class HitCheckpoints : MonoBehaviour
 		if (!collidedObject.gameObject.CompareTag("Checkpoint")) return;
 		
 		// When the finish gets hit
-		if (collidedObject.name == "Finish")
+		if (collidedObject.name == "Finish" && !finished)
 		{
+			finished = true;
 			RoundTime.Stop();
 			collidedObject.transform.GetChild(0).gameObject.SetActive(true);
 			Camera.main.gameObject.SetActive(false);
+			collidedObject.GetComponent<BoxCollider>().enabled = false;
 			finish.transform.GetChild(0).gameObject.SetActive(true);
 			QuestionText.transform.parent.gameObject.SetActive(false);
 			FinishedText.gameObject.SetActive(true);
@@ -67,23 +67,20 @@ public class HitCheckpoints : MonoBehaviour
 		else   // Disable checkpoints as soon as they get hit
 		{
 			collidedObject.transform.parent.gameObject.SetActive(false);
+			if (collidedObject.GetComponent<FlareController>().color == (FlareController.ColorsEnum)RightAnswerIndex)
+			{
+				GoodCheckpoints++;
+			}
+			else
+			{
+				WrongCheckpoints++;
+				ExtraTimeText.text = "+ " + WrongCheckpoints * 5 + ".00";
+			}
 		}
 		
-		checkpointsHit.Add((int)collidedObject.GetComponent<FlareController>().color);
-
-		if (collidedObject.GetComponent<FlareController>().color == (FlareController.ColorsEnum)RightAnswerIndex)
+		if (GoodCheckpoints + WrongCheckpoints < AmountOfQuestions)
 		{
-			GoodCheckpoints++;
-		}
-		else
-		{
-			WrongCheckpoints++;
-			ExtraTimeText.text = "+ " + WrongCheckpoints * 5 + ".00";
-		}
-		
-		if (checkpointsHit.Count < AmountOfQuestions)
-		{
-			GenerateQuestion(checkpointsHit.Count);
+			GenerateQuestion(GoodCheckpoints + WrongCheckpoints);
 		}
 		else
 		{
