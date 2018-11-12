@@ -9,6 +9,8 @@ public class countdownTimer : MonoBehaviour {
 
 	public float timeLeft = 3.0f;
 	public Text countdownText;
+
+	private bool started = false;
 	
 	void Update()
 	{
@@ -16,7 +18,12 @@ public class countdownTimer : MonoBehaviour {
 		countdownText.text = Mathf.Ceil(timeLeft).ToString();
 		if (timeLeft < 0.0f)
 		{
-			gameObject.GetComponent<HitCheckpoints>().RoundTime.Start();
+			if (!started)
+			{
+				started = true;
+				gameObject.GetComponent<HitCheckpoints>().RoundTime.Start();
+			}
+
 			countdownText.gameObject.SetActive(false);
 		}
 	}
