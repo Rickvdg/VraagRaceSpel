@@ -12,6 +12,7 @@
             <e p="LICENSE.txt" t="Include" />
           </e>
         </e>
+        <e p="HighscoreController.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="UI-Default-No-Alpha.shader" t="Include" />
         </e>
