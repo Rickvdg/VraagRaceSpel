@@ -12,7 +12,6 @@
             <e p="LICENSE.txt" t="Include" />
           </e>
         </e>
-        <e p="HighscoreController.cs" t="Include" />
         <e p="Materials" t="Include">
           <e p="UI-Default-No-Alpha.shader" t="Include" />
         </e>
@@ -20,13 +19,6 @@
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
-            </e>
-          </e>
-          <e p="GitHub" t="Include">
-            <e p="Editor" t="Include">
-              <e p="credits.txt" t="Include" />
-              <e p="eula.txt" t="Include" />
-              <e p="ExtensionLoader.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -40,6 +32,7 @@
           <e p="DropMe.cs" t="Include" />
           <e p="ExitButtonController.cs" t="Include" />
           <e p="FlareController.cs" t="Include" />
+          <e p="HighscoreController.cs" t="Include" />
           <e p="HitCheckpoints.cs" t="Include" />
           <e p="LoadSceneOnClick.cs" t="Include" />
           <e p="MovementScript.cs" t="Include" />
@@ -49,6 +42,7 @@
           <e p="ScrollDetailTexture.cs" t="Include" />
           <e p="ShowSliderValue.cs" t="Include" />
           <e p="TiltWindow.cs" t="Include" />
+          <e p="VariableManager.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="CrossPlatformInput" t="Include">

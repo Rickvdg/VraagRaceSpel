@@ -21,7 +21,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void FixedUpdate()
         {
-            // Only accept input if the countdown has reaced zero
+            // Only accept input if the countdown has reached zero
             if (!countdownText.IsActive())
             {
                 // pass the input to the car!

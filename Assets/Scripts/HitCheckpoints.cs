@@ -20,6 +20,7 @@ public class HitCheckpoints : MonoBehaviour
 	public Text ExtraTimeText;
 	public Stopwatch RoundTime;
 	public GameObject finish;
+	public int level;
 
 	public int AmountOfQuestions = 3;
 	private int RightAnswerIndex;
@@ -33,15 +34,33 @@ public class HitCheckpoints : MonoBehaviour
 		FinishedText.gameObject.SetActive(false);
 		finish.transform.GetChild(0).gameObject.SetActive(false);
 
-		Questions = new[]
+		switch (level)
 		{
-			new QuestionObj("Wat is de hoodstad van Marokko", "Rabat", "Caïro", "Istanbull"),
-			new QuestionObj("23 + 44", "67", "77", "69"),
-			new QuestionObj("Aantal chromosomen van een mens", "23", "24", "25"),
-			new QuestionObj("Ja?", "Nee.", "Ja!", "Wat?"),
-			new QuestionObj("4,2 * 3", "12,6", "12,9", "12,2") 
-		};
-		
+			case 1:
+				Questions = new[]
+				{
+					new QuestionObj("Wat is de hoodstad van Marokko", "Rabat", "Caïro", "Istanbull"),
+					new QuestionObj("Wat is de hoofdstad van België?", "Brussel", "Antwerpen", "Gent"),
+					new QuestionObj("Welke stad heeft de meeste inwoners?", "Luxemburg (land)", "Antwerpen", "Den Haag"),
+					new QuestionObj("Welk land heeft de grootste oppervlakte?", "Canada", "Verenigde Staten", "Australië"),
+					new QuestionObj("Hoeveel provincies zijn er in NL?", "12", "10", "11")
+				};
+				break;
+			case 2:
+				Questions = new[]
+				{
+					new QuestionObj("2 + 9", "11", "10", "13"),
+					new QuestionObj("23 + 44", "67", "77", "69"),
+					new QuestionObj("4,2 * 3", "12,6", "12,9", "12,2"),
+					new QuestionObj("Wat is de wortel van 25", "5", "2", "4.26"),
+					new QuestionObj("2 tot de macht 4 is...?", "16", "32", "10")
+				};
+				break;
+			default:
+				Debug.LogError("Could not find the selected level. Please change this asap.");
+				break;
+		}
+
 		GenerateQuestion(0);
 	}
 	
@@ -62,6 +81,7 @@ public class HitCheckpoints : MonoBehaviour
 			finish.transform.GetChild(0).gameObject.SetActive(true);
 			QuestionText.transform.parent.gameObject.SetActive(false);
 			FinishedText.gameObject.SetActive(true);
+			GetComponent<HighscoreController>().AddScore(level, VariableManager.Username, RoundTime.Elapsed.Add(TimeSpan.FromSeconds(5 * WrongCheckpoints)));
 			Debug.Log(RoundTime.Elapsed.ToString());
 		}
 		else   // Disable checkpoints as soon as they get hit

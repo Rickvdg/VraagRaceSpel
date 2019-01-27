@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 11400024}
   - component: {fileID: 114791700952912540}
   - component: {fileID: 114455783021675078}
+  - component: {fileID: 114158960207167326}
   m_Layer: 0
   m_Name: Car
   m_TagString: Player
@@ -5626,6 +5627,21 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1035607905648952}
   m_Enabled: 1
+--- !u!114 &114158960207167326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd786bb7614e0cc4c912682c93f6f625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Texts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &114455783021675078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5650,7 +5666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0435eed50318cae47ac95cb33351a9c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkpointsHit: 
   WrongCheckpoints: 0
   GoodCheckpoints: 0
   QuestionText: {fileID: 0}
@@ -5660,6 +5675,7 @@ MonoBehaviour:
   FinishedText: {fileID: 0}
   ExtraTimeText: {fileID: 0}
   finish: {fileID: 0}
+  level: 2
   AmountOfQuestions: 5
 --- !u!124 &124368445031486918
 Behaviour:
